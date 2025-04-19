@@ -44,6 +44,6 @@ resource "aws_route53_record" "app_alb" {
   alias {
     name                   = module.alb.dns_name
     zone_id                = module.alb.zone_id
-    evaluate_target_health = true
+    evaluate_target_health = false
   }
 }
