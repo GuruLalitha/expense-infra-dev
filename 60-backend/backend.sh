@@ -6,5 +6,4 @@
 
 
  #pull
- ansible-pull -i localhost, -U https://github.com/GuruLalitha/expense-ansible-roles-tf.git 
- main.yaml -e COMPONENT=backend -e ENVIRONMENT=$1
+ ansible-pull -i localhost, -U https://github.com/GuruLalitha/expense-ansible-roles-tf.git main.yaml -e COMPONENT=backend -e ENVIRONMENT=$1
